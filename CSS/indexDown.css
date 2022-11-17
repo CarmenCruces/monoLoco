@@ -12,6 +12,6 @@ body {
         height: 100vw;
         background-image: url("/img/desktop/beachBgDesktop.png");
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:cover!important;
         }
 }

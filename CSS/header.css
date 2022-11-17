@@ -1,35 +1,54 @@
 /*for desktop*/ 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 600px)  {
 
     .monoLocoTxt {
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        width: 100vw;
+        align-content: center; */
+        width:100vw;
+        height:100vw;
+        background-image: url("/img/desktop/headerTxtDesktop.png");
+        background-repeat: no-repeat;
     }
 
     .cocoGames {
-        position: absolute;
+       /*  position: absolute; */
         bottom: 0;
         left: 0;
         width: 100vw;
+        height:100vw;
+        background-image: url("/img/desktop/cgLogoDesktop.png");
+        background-repeat: no-repeat;
     }
 }
 
 
 header {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }  
 
 .monoLocoTxt {
-    display: flex;
+    /* display: flex;
     align-self: center;
-    position: none;
+    justify-content: center;
+    align-content: center;
+    position: none; */
     padding: 20px;
+   /*  left: 0; */
+    width: 100vw;
+    height:100vw;
+    background-image: url("/img/mobile/headerTxtMobile.png");
+    background-repeat: no-repeat;
 }
 
 .cocoGames {
-    display: flex;
-    align-items: flex-end;
+    /* display: flex;
+    align-items: flex-end; */
     padding: 10px;
+    left: 0;
+    width: 100vw;
+    height:100vw;
+    background-image: url("/img/mobile/cgLogoMobile.png");
+    background-repeat: no-repeat;
 }
