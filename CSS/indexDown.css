@@ -1,0 +1,11 @@
+body {
+    background-image: url("/img/mobile/beachBgMobile.png")!important;
+    background-repeat: no-repeat;
+    }
+    
+    /*This applies from 600px onwards*/
+    @media (min-width: 600px) {
+    body {
+        background-image: url("/img/desktop/beachBgDesktop.png")!important;
+    }
+    }
