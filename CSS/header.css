@@ -1,0 +1,28 @@
+header {
+  background-color: green;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  /* position:absolute; */
+  width: 430px;
+  height: 100vw;
+  padding: 0px;
+  /* top: 1%;
+  left: 40%; */
+  background-repeat: no-repeat;
+  background-image: url("/img/mobile/headerTxtMobile.png");
+  background-color: blue;
+}
+
+.logo {
+  /* position:absolute; */
+  width: 55px;
+  height: 55px;
+  top: 0;
+  background-image: url("/img/mobile/cgLogoMobile.png");
+  background-color: red;
+}
