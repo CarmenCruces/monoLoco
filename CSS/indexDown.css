@@ -15,3 +15,25 @@ body {
     background-size: 100vw 100vh;
 }
 }
+
+/* starts indexDown2 */
+.play {
+    background-image: url("/img/mobile/playButtonMobile.png");
+    width: 85px;
+    height: 55px;
+    background-repeat: no-repeat;
+}
+
+.refresh {
+    background-image: url("/img/mobile/refreshButtonMobile.png");
+    width: 85px;
+    height: 55px;
+    background-repeat: no-repeat;
+}
+
+.add {
+    background-image: url("/img/mobile/addButtonMobile.png");
+    width: 85px;
+    height: 55px;
+    background-repeat: no-repeat;
+}
