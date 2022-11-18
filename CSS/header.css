@@ -2,15 +2,17 @@ header {
   background-color: green;
   margin: 10px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .title {
-  /* position:absolute; */
-  width: 430px;
-  height: 100vw;
-  padding: 0px;
+/*   position:absolute; */
+  width: 290px;
+  height: 60px;
+/*   top: 0;
+  left: 0; */
+ /*  padding: 0px; */
   /* top: 1%;
   left: 40%; */
   background-repeat: no-repeat;
@@ -19,10 +21,11 @@ header {
 }
 
 .logo {
-  /* position:absolute; */
+/*   position:absolute; */
   width: 55px;
   height: 55px;
-  top: 0;
+/*   top: 0;
+  right: 0; */
   background-image: url("/img/mobile/cgLogoMobile.png");
   background-color: red;
 }
