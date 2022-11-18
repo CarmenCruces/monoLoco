@@ -1,11 +1,17 @@
 body {
     background-image: url("/img/mobile/beachBgMobile.png")!important;
     background-repeat: no-repeat;
-    }
+    background-size: contain;
+    background-size: 100%;
+    background-size: 100vw 100vh;
+}
     
     /*This applies from 600px onwards*/
-    @media (min-width: 600px) {
-    body {
-        background-image: url("/img/desktop/beachBgDesktop.png")!important;
-    }
-    }
+@media (min-width: 600px) {
+body {
+    background-image: url("/img/desktop/beachBgDesktop.png")!important;
+    background-size: contain;
+    background-size: 100%;
+    background-size: 100vw 100vh;
+}
+}
