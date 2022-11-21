@@ -1,0 +1,131 @@
+/* .box1{
+    background-color: blue;
+    width: 50vw;
+    height: 100vw;
+    position: absolute;
+
+} */
+
+/*----------Starting Game Here----------*/
+
+.touristMobile{
+    background-image: url("/img/mobile/touristMobile.png");
+    width: 163vw;
+    height: 232vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 85vw;
+    left: 25vw;
+    }
+
+.palmTreeMobile{
+    background-image: url("/img/mobile/palmTreeMobile.png");
+    background-repeat: no-repeat;
+    width: 428vw;
+    height: 526vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 10vw;
+    left: -40vw;
+    }
+
+.onlyMonkeyMobile{
+    background-image: url("/img/mobile/onlyMonkeyMobile.png");
+    background-repeat: no-repeat;
+    width: 81vw;
+    height: 164vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 32vw;
+    left: 10vw;
+    }
+
+.coconutMobile{
+    background-image: url("/img/mobile/coconutMobile.png");
+    background-repeat: no-repeat;
+    width: 81vw;
+    height: 164vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 24vw;
+    left: 19vw;
+}
+
+/* .monkeyMixMobile{
+    background-image: url("/img/mobile/monkeyMixMobile.png");
+    background-repeat: no-repeat;
+    width: 81vw;
+    height: 164vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 25vw;
+    left: 10vw;
+    } */
+
+
+
+    /*----------Ending Game Here----------*/
+
+.depMobile{
+    background-image: url("/img/mobile/depMobile.png");
+    background-repeat: no-repeat;
+    width: 161vw;
+    height: 51vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 70vw;
+    left: 55vw;
+    }
+
+/* .deadWomanMobile{
+    background-image: url("/img/mobile/deadWomanMobile.png");
+    width: 163vw;
+    height: 232vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 95vw;
+    left: 30vw;
+    } */
+
+/* .bubbleBoxMobile{
+    background-image: url("/img/mobile/bubbleBoxMobile.png");
+    background-repeat: no-repeat;
+    width: 81vw;
+    height: 164vw;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 2vw;
+    left: 20vw;
+    } */
+
+
+
+
+/*----------Media Here---------*/
+
+/*This applies from 600px onwards*/
+/* @media (min-width: 400px) {
+    .touristMobile{
+        background-image: url("/img/desktop/touristDesktop.png");
+        width: 50vw;
+        height: 70vw;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 35vw;
+        left: 25vw;
+        background-size:
+    }
+    
+    } */
