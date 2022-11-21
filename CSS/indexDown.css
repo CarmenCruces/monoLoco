@@ -15,7 +15,7 @@ body {
     background-size: 100vw 100vh;
 }
 
-.buttons {
+/* .buttons {
     display: flex;
     justify-content: space-around!important;
     left: 70%;
@@ -25,41 +25,41 @@ body {
     background-color: blue;
     background-size: 20%!important;
     
-}
+} */
 
-.play{
-    /* background-image: url("/img/desktop/playButtonDesktop.png")!important; */
+/* .play{
+    background-image: url("/img/desktop/playButtonDesktop.png")!important;
     background-color: transparent;
     border: none;
-    /* width: 9vw!important;
-    height: 7vw!important; */
-/*     max-width: 9vw!important;
-    max-height: 7vw!important; */
-   /*  overflow:visible!important; */
-}
+    width: 9vw!important;
+    height: 7vw!important;
+    max-width: 9vw!important;
+    max-height: 7vw!important;
+    overflow:visible!important;
+} */
 
-.refresh{
+/* .refresh{
     background-image: url("/img/desktop/restartButtonDesktop.png")!important;
     background-color: transparent;
     border: none;
     width: 9vw!important;
     height: 7vw!important;
-    /* overflow:visible!important; */
+    overflow:visible!important;
 }
-
-.add{
+ */
+/* .add{
     background-image: url("/img/desktop/addButtonDesktop.png")!important;
     background-color: transparent;
     border: none;
     width: 9vw!important;
     height: 7vw!important;
-    /* overflow:visible!important; */
-}
+    overflow:visible!important;
+} */
 }
 
 /* starts indexDown2 */
 .play {
-    /* background-image: url("/img/mobile/playButtonMobile.png"); */
+    background-image: url("/img/mobile/playButtonMobile.png")!important;
     background-color: transparent;
     border: none;
     width: 20vw;
@@ -68,7 +68,7 @@ body {
 }
 
 .refresh {
-    background-image: url("/img/mobile/refreshButtonMobile.png");
+    background-image: url("/img/mobile/refreshButtonMobile.png")!important;
     background-color: transparent;
     border: none;
     width: 20vw;
@@ -77,7 +77,7 @@ body {
 }
 
 .add {
-    background-image: url("/img/mobile/addButtonMobile.png");
+    background-image: url("/img/mobile/addButtonMobile.png")!important;
     background-color: transparent;
     border: none;
     width: 20vw;
@@ -91,10 +91,52 @@ body {
     align-content: flex-end;
     position: relative;
     top: 430px;
+    left: -3vw;
+    height: 12vw;
     
-
 }
 
-.columns{
+.boxLeft {
+    background-image: url("/img/mobile/columnMobile.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 150vw;
+    left: 4vw;
+    width: 138vw;
+    height: 232vw;
+}
 
+.boxRight {
+    background-image: url("/img/mobile/columnMobileTwo.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 150vw;
+    left: 53vw;
+    width: 138vw;
+    height: 232vw;
+}
+
+.corpses {
+    font-family: 'Rubik Bubbles', cursive;
+    color: #2D572C;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: -3vw;
+    width: 37vw;
+    height: 4vw;
+    text-align: center;
+}
+
+.innocents {
+    font-family: 'Rubik Bubbles', cursive;
+    color: #2D572C;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: -3vw;
+    width: 37vw;
+    text-align: center;
 }
