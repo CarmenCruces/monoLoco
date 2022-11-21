@@ -91,7 +91,6 @@ body {
     align-content: flex-end;
     position: relative;
     top: 430px;
-    left: -3vw;
     height: 12vw;
     
 }
@@ -111,7 +110,7 @@ body {
     position: absolute;
     background-repeat: no-repeat;
     top: 150vw;
-    left: 53vw;
+    left: 59vw;
     width: 138vw;
     height: 232vw;
 }
