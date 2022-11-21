@@ -14,4 +14,129 @@ body {
     background-size: 100%;
     background-size: 100vw 100vh;
 }
+
+/* .buttons {
+    display: flex;
+    justify-content: space-around!important;
+    left: 70%;
+    top: 60px!important;
+    height: 4vw;
+    width: 30%;
+    background-color: blue;
+    background-size: 20%!important;
+    
+} */
+
+/* .play{
+    background-image: url("/img/desktop/playButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 9vw!important;
+    height: 7vw!important;
+    max-width: 9vw!important;
+    max-height: 7vw!important;
+    overflow:visible!important;
+} */
+
+/* .refresh{
+    background-image: url("/img/desktop/restartButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 9vw!important;
+    height: 7vw!important;
+    overflow:visible!important;
+}
+ */
+/* .add{
+    background-image: url("/img/desktop/addButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 9vw!important;
+    height: 7vw!important;
+    overflow:visible!important;
+} */
+}
+
+/* starts indexDown2 */
+.play {
+    background-image: url("/img/mobile/playButtonMobile.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 20vw;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.refresh {
+    background-image: url("/img/mobile/refreshButtonMobile.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 20vw;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.add {
+    background-image: url("/img/mobile/addButtonMobile.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 20vw;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    position: relative;
+    top: 430px;
+    height: 12vw;
+    left: -2vw;
+    
+}
+
+.boxLeft {
+    background-image: url("/img/mobile/columnMobile.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 150vw;
+    left: 4vw;
+    width: 138vw;
+    height: 232vw;
+}
+
+.boxRight {
+    background-image: url("/img/mobile/columnMobileTwo.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 150vw;
+    left: 56vw;
+    width: 138vw;
+    height: 232vw;
+}
+
+.corpses {
+    font-family: 'Rubik Bubbles', cursive;
+    color: #2D572C;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: -3vw;
+    width: 37vw;
+    height: 4vw;
+    text-align: center;
+}
+
+.innocents {
+    font-family: 'Rubik Bubbles', cursive;
+    color: #2D572C;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: -3vw;
+    width: 37vw;
+    text-align: center;
 }

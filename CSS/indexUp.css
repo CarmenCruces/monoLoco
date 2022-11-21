@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 85vw;
+    top: 69vw;
     left: 25vw;
     }
 
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 10vw;
+    top: -4vw;
     left: -40vw;
     }
 
@@ -40,7 +40,7 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 32vw;
+    top: 20vw;
     left: 10vw;
     }
 
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 24vw;
+    top: 13vw;
     left: 19vw;
 }
 
@@ -80,8 +80,9 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 70vw;
-    left: 55vw;
+    top: 56vw;
+    left: 52vw;
+    
     }
 
 /* .deadWomanMobile{

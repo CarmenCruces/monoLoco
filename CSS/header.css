@@ -26,6 +26,7 @@ header {
     height: 60px;
     background-repeat: no-repeat;
     background-image: url("/img/mobile/headerTxtMobile.png");
+    z-index: 1;
 }
 
 .logo {
