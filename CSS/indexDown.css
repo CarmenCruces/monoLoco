@@ -17,51 +17,53 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: flex-end!important;
+    justify-content: space-around!important;
+    left: 70%;
     top: 60px!important;
-    right: 280px;
-    height: auto;
-    width: auto;
-    margin: 30px!important;
+    height: 4vw;
+    width: 30%;
     background-color: blue;
+    background-size: 20%!important;
     
 }
 
 .play{
-    background-image: url("/img/desktop/playButtonDesktop.png")!important;
+    /* background-image: url("/img/desktop/playButtonDesktop.png")!important; */
     background-color: transparent;
     border: none;
-    width: 120px!important;
-    height: 95px!important;
-    overflow:visible!important;
+    /* width: 9vw!important;
+    height: 7vw!important; */
+/*     max-width: 9vw!important;
+    max-height: 7vw!important; */
+   /*  overflow:visible!important; */
 }
 
 .refresh{
     background-image: url("/img/desktop/restartButtonDesktop.png")!important;
     background-color: transparent;
     border: none;
-    width: 120px!important;
-    height: 95px!important;
-    overflow:visible!important;
+    width: 9vw!important;
+    height: 7vw!important;
+    /* overflow:visible!important; */
 }
 
 .add{
     background-image: url("/img/desktop/addButtonDesktop.png")!important;
     background-color: transparent;
     border: none;
-    width: 120px!important;
-    height: 95px!important;
-    overflow:visible!important;
+    width: 9vw!important;
+    height: 7vw!important;
+    /* overflow:visible!important; */
 }
 }
 
 /* starts indexDown2 */
 .play {
-    background-image: url("/img/mobile/playButtonMobile.png");
+    /* background-image: url("/img/mobile/playButtonMobile.png"); */
     background-color: transparent;
     border: none;
-    width: 85px;
-    height: 55px;
+    width: 20vw;
+    height: auto;
     background-repeat: no-repeat;
 }
 
@@ -69,8 +71,8 @@ body {
     background-image: url("/img/mobile/refreshButtonMobile.png");
     background-color: transparent;
     border: none;
-    width: 85px;
-    height: 55px;
+    width: 20vw;
+    height: auto;
     background-repeat: no-repeat;
 }
 
@@ -78,8 +80,8 @@ body {
     background-image: url("/img/mobile/addButtonMobile.png");
     background-color: transparent;
     border: none;
-    width: 85px;
-    height: 55px;
+    width: 20vw;
+    height: auto;
     background-repeat: no-repeat;
 }
 
