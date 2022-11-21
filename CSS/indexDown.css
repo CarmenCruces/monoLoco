@@ -14,11 +14,52 @@ body {
     background-size: 100%;
     background-size: 100vw 100vh;
 }
+
+.buttons {
+    display: flex;
+    justify-content: flex-end!important;
+    top: 60px!important;
+    right: 280px;
+    height: auto;
+    width: auto;
+    margin: 30px!important;
+    background-color: blue;
+    
+}
+
+.play{
+    background-image: url("/img/desktop/playButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 120px!important;
+    height: 95px!important;
+    overflow:visible!important;
+}
+
+.refresh{
+    background-image: url("/img/desktop/restartButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 120px!important;
+    height: 95px!important;
+    overflow:visible!important;
+}
+
+.add{
+    background-image: url("/img/desktop/addButtonDesktop.png")!important;
+    background-color: transparent;
+    border: none;
+    width: 120px!important;
+    height: 95px!important;
+    overflow:visible!important;
+}
 }
 
 /* starts indexDown2 */
 .play {
     background-image: url("/img/mobile/playButtonMobile.png");
+    background-color: transparent;
+    border: none;
     width: 85px;
     height: 55px;
     background-repeat: no-repeat;
@@ -26,6 +67,8 @@ body {
 
 .refresh {
     background-image: url("/img/mobile/refreshButtonMobile.png");
+    background-color: transparent;
+    border: none;
     width: 85px;
     height: 55px;
     background-repeat: no-repeat;
@@ -33,7 +76,23 @@ body {
 
 .add {
     background-image: url("/img/mobile/addButtonMobile.png");
+    background-color: transparent;
+    border: none;
     width: 85px;
     height: 55px;
     background-repeat: no-repeat;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    position: relative;
+    top: 430px;
+    
+
+}
+
+.columns{
+
 }
