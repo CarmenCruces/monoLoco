@@ -17,6 +17,6 @@ Collaborators:
 
 Stacks: HTML5 and CCS3 & JSES6.
 
-Methodology: Pair Programming.
+Methodology: Agile & Pair Programming. 
 
 Next steps: animation.
