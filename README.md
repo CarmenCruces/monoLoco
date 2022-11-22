@@ -15,7 +15,7 @@ Collaborators:
 
 • Developer: Elena Mª Pérez Arjona (https://github.com/elenarjonap)
 
-Stacks: HTML5 and CCS3 JS & ES6.
+Stacks: HTML5 and CCS3 & JSES6.
 
 Methodology: Pair Programming.
 
