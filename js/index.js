@@ -1,78 +1,77 @@
-/* let list1 =[["ADRIANA AGUILAR RUIZ", "vero", "carmen"],
-["ALBA MARIA RUS MARTINEZ"],
-    "ALESIA BALDEÓN MACHUCA",
-    "Ana Rueda Guiu",
-    "BEATRIZ DE AVILA JIMENEZ",
-    "CAMILA RUIZ GUTIERREZ",
-    "CARMEN CRUCES FERNANDEZ",
-    "CARMEN GALLARDO POZO",
-    "ELENA MARIA PEREZ ARJONA",
-    "ESTHER DE LUQUE ZURITA",
-    "FLORENCIA TISCORNIA",
-    "HIMORELL  JARAMILLO GONZALEZ",
-    "LEIDY VILLAMIL",
-    "LOLA GARCIA MORCILLO",
-    "LOLA NAVARRO",
-    "MARIA SIERRA PEREZ SÁNCHEZ",
-    "NATALIA PALOMO FUENTES",
-    "NOA TRUJILLO ZAMORA",
-    "PALOMA BABOT LEÓN",
-    "PALOMA RUIZ RAMIREZ",
-    "PAULA ALEJANDRA RODRIGUEZ AGUDELO",
-    "RAQUEL PALOMO FUENTES",
-    "SANDRA LEÓN DE RISCO",
-    "VERONICA FLORES GUTIERREZ",
-    "VERONIKA KOMAROVA",
-    "JOSÉ MANUEL formador",
-    ]  */
-
-let list1 = ["Elena", "Veflo", "Ana", "Carmen C.", "Noa"];
-
-
-let deadlist=[]
-let position=(Math.round(random))
-
-function killTourist() {
-let length= list1.length
-let random=(Math.random()*length)
-
-for (let index = 0; index < list1.length; index++) {
-    if (list1[index] === random) {
-        list1.splice(index, 1)  
-    }
-}
-}
-
-    console.log(length);
-    console.log(list1.length);    
-    console.log(Math.round(random));
-    console.log(list1[position]);
-    
-
-
-
-
-
-
-
-
-
-/* let nameList = ["Elena", "Veflo", "Ana", "Carmen C.", "Noa"];
-let lengthList = nameList.length;
+let aliveList = ["NOA", "CARMEN C.", "VEFLO", "ELENA", "ANA"];
 let deadList = [];
+console.log(aliveList);
+//---AQUÍ LLAMAMOS A RELLENAR LISTAS---//
+window.addEventListener("kill", rellenarListas);
 
-console.log(lengthList);
-console.log(nameList);
-console.log(nameList[3]);
+//---AQUÍ FUNCIÓN RELLENAR LISTAS---//
+function rellenarListas(){
+    //Obtenemos los elementos HTML en los que mostramos los listados
+    let aliveList = document.getElementById("aliveList");
+    let deadList = document.getElementById("deadList");
 
-function getRandomName (arrayList){
-    let lengthList = arrayList.length;
-    let random = (Math.random()*lengthList);
+    //Para los vivos
+    aliveList.innerHTML = "";
+    alives.forEach(
+        (element) => {
+            aliveList.innerHTML += ('<li>' + element + '</li>');
+        }
+    );
 
-    for (index=0;index<lengthList;index=);
+    //Para los muertos
+    deadList.innerHTML = "";
+    deads.forEach(
+        (element) => {
+            deadList.innerHTML += ('<li>' + element + '</li>');
+        }
+    );
 
-    console.log(random);
+}
 
+//---AQUÍ FUNCIÓN MEDIR LONGITUD LISTA DE NOMBRES---//
+function calculeLengthArray(arrayList){
+    let lengthList = 0;
+    lengthList = arrayList.length;
+    return(lengthList);
+}
 
-    return (random);
-} */
+//---AQUÍ COMPRUEBO SI MIDE BIEN LA LISTA---//
+let lenghtListName = calculeLengthArray(aliveList);
+console.log("Longitud de mi lista: ", lenghtListName);
+
+//---AQUÍ FUNCIÓN SACAR UN NOMBRE AL AZAR DE LA LISTA SIN REPETIR---//
+function killRandom(arrayList){
+    let lenghtList = arrayList.length;
+    let aleatorio = aliveList[Math.floor(Math.random()*aliveList.length)];
+
+    for(index=0;index<lenghtList;index++){
+
+    if(aliveList[index] === aleatorio) {
+        aliveList.splice(index, 1);
+        deads.unshift(deadList);
+    }
+    }
+
+    //  AQUÍ SE METERÍA EL BOTÓN  //
+    return(aleatorio);
+}
+
+// Llamar a la función rellenarListas para actualizar su contenido
+rellenarListas();
+
+//---AQUÍ COMPRUEBO SI FUNCIÓN KILLRANDOM FUNCIONA---//
+/* let killRandomPerson = killRandom(aliveList);
+console.log("Primera persona que ha muerto: ", killRandomPerson);
+let killRandomPerson1 = killRandom(aliveList);
+console.log("Segunda persona que ha muerto: ", killRandomPerson1);
+let killRandomPerson2 = killRandom(aliveList);
+console.log("Tercera persona que ha muerto: ", killRandomPerson2);
+let killRandomPerson3 = killRandom(aliveList);
+console.log("Cuarta persona que ha muerto: ", killRandomPerson3);
+let killRandomPerson4 = killRandom(aliveList);
+console.log("Quinta persona que ha muerto: ", killRandomPerson4);
+let killRandomPerson5 = killRandom(aliveList);
+console.log("Sexta persona que ha muerto:", killRandomPerson5); */
+//Creo que funciona porque no cuenta más allá de esas 5
+//---AQUÍ FUNCIÓN MANDAR A LA LISTA DE FIAMBRES---//
+
