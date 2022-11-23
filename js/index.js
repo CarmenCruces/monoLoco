@@ -1,59 +1,59 @@
-/* let list1 =[["ADRIANA AGUILAR RUIZ", "vero", "carmen"],
-["ALBA MARIA RUS MARTINEZ"],
-    "ALESIA BALDEÓN MACHUCA",
-    "Ana Rueda Guiu",
-    "BEATRIZ DE AVILA JIMENEZ",
-    "CAMILA RUIZ GUTIERREZ",
-    "CARMEN CRUCES FERNANDEZ",
-    "CARMEN GALLARDO POZO",
-    "ELENA MARIA PEREZ ARJONA",
-    "ESTHER DE LUQUE ZURITA",
-    "FLORENCIA TISCORNIA",
-    "HIMORELL  JARAMILLO GONZALEZ",
-    "LEIDY VILLAMIL",
-    "LOLA GARCIA MORCILLO",
-    "LOLA NAVARRO",
-    "MARIA SIERRA PEREZ SÁNCHEZ",
-    "NATALIA PALOMO FUENTES",
-    "NOA TRUJILLO ZAMORA",
-    "PALOMA BABOT LEÓN",
-    "PALOMA RUIZ RAMIREZ",
-    "PAULA ALEJANDRA RODRIGUEZ AGUDELO",
-    "RAQUEL PALOMO FUENTES",
-    "SANDRA LEÓN DE RISCO",
-    "VERONICA FLORES GUTIERREZ",
-    "VERONIKA KOMAROVA",
-    "JOSÉ MANUEL formador",
-    ]  */
+let alives = ["NOA", "CARMEN C.", "VEFLO", "ELENA", "ANA"];
+let deads = [];
+console.log(alives);
+//---AQUÍ LLAMAMOS A RELLENAR LISTAS---//
+window.addEventListener("load", rellenarListas);
 
-let list1 = ["Elena", "Veflo", "Ana", "Carmen C.", "Noa"];
+//---AQUÍ FUNCIÓN RELLENAR LISTAS---//
+function rellenarListas(){
+    //Obtenemos los elementos HTML en los que mostramos los listados
+    let listaAlive = document.getElementById("listaAlive");
+    let listaDead = document.getElementById("listaDead");
 
+    //Para los vivos
+    listaAlive.innerHTML = "";
+    alives.forEach(
+        (element) => {
+            listaAlive.innerHTML += ('<li>' + element + '</li>');
+        }
+    );
 
-let deadlist=[]
-let position=(Math.round(random))
+    //Para los muertos
+    listaDead.innerHTML = "";
+    deads.forEach(
+        (element) => {
+            listaDead.innerHTML += ('<li>' + element + '</li>');
+        }
+    );
 
-function killTourist() {
-let length= list1.length
-let random=(Math.random()*length)
+}
 
-for (let index = 0; index < list1.length; index++) {
-    if (list1[index] === random) {
-        list1.splice(index, 1)  
+//---AQUÍ FUNCIÓN MEDIR LONGITUD LISTA DE NOMBRES---//
+function calculeLengthArray(alives){
+    let lengthList = 0;
+    lengthList = alives.length;
+    return(lengthList);
+}
+
+//---AQUÍ COMPRUEBO SI MIDE BIEN LA LISTA---//
+let lenghtListName = calculeLengthArray(alives);
+console.log("Longitud de mi lista: ", lenghtListName);
+
+//---AQUÍ FUNCIÓN SACAR UN NOMBRE AL AZAR DE LA LISTA SIN REPETIR---//
+function randomKill(){
+    let lenghtList = alives.length;
+    let aleatorio = alives[Math.floor(Math.random()*alives.length)];
+
+    for(index=0;index<lenghtList;index++){
+
+    if(alives[index] === aleatorio) {
+        alives.splice(index, 1);
+        deads.unshift(aleatorio);
     }
+
+    rellenarListas();
+    }
+
+    //  AQUÍ SE METERÍA EL BOTÓN  //
+    return(aleatorio);
 }
-}
-
-    console.log(length);
-    console.log(list1.length);    
-    console.log(Math.round(random));
-    console.log(list1[position]);
-    
-
-
-
-
-
-
-
-
-

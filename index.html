@@ -49,7 +49,7 @@
 			</article>
 			<article>
 				<div class="buttons">
-					<button class="play"></button>
+					<button onclick="randomKill()" class="play"></button>
 					<button class="refresh"></button>
 					<button class="add"></button>
 				</div>
@@ -57,10 +57,14 @@
 				<div class="columns">
 					<div class="boxLeft">
 						<h5 class="innocents">TURISTAS<br> INOCENTES</h5>
+						<ul id="listaAlive" class="alivePeople">
+						</ul>
 					</div>
 
 					<div class="boxRight">
 						<h5 class="corpses">FIAMBRES</h5>
+						<ul id="listaDead" class="deadPeople">
+						</ul>
 					</div>
 					
 				</div>
