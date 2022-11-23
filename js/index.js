@@ -57,22 +57,3 @@ for (let index = 0; index < list1.length; index++) {
 
 
 
-/* let nameList = ["Elena", "Veflo", "Ana", "Carmen C.", "Noa"];
-let lengthList = nameList.length;
-let deadList = [];
-
-console.log(lengthList);
-console.log(nameList);
-console.log(nameList[3]);
-
-function getRandomName (arrayList){
-    let lengthList = arrayList.length;
-    let random = (Math.random()*lengthList);
-
-    for (index=0;index<lengthList;index=);
-
-    console.log(random);
-
-
-    return (random);
-} */
