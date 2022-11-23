@@ -1,22 +1,28 @@
-# monoLoco
-Name: MonoLoco.
+# Mono Loco Wheel of Doom
 
-Description: Our project is a Weel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
+Our project is a Weel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
 
-Collaborators:
 
-• Product Owner: Noa Trujillo Zamora (https://github.com/mintybubblegum)
+## Participants
 
-• Scrum Master: Carmen Cruces Fernández (https://github.com/CarmenCruces)
+- [@CarmenCruces](https://github.com/CarmenCruces) SCRUM Master
+- [@mintybubblegum](https://github.com/mintybubblegum) Product Owner
+- [@anaruedaguiu](https://github.com/anaruedaguiu) Developer
+- [@veflo13](https://github.com/veflo13) Developer
+- [@elenarjonap](https://github.com/elenarjonap) Developer
 
-• Developer: Ana Rueda Guiu (https://github.com/anaruedaguiu)
+## Screenshots
 
-• Developer: Veronica Flores Gutiérrez (https://github.com/veflo13)
+## Stacks
 
-• Developer: Elena Mª Pérez Arjona (https://github.com/elenarjonap)
+- Html 5
+- CSS 3
+- Java Script
 
-Stacks: HTML5 and CCS3 & JSES6.
+## Test
 
-Methodology: Agile & Pair Programming. 
+## Methodology
 
-Next steps: animation.
+- AGILE with SCRUM
+- Mob Programming
+- Pair Programming
