@@ -57,4 +57,3 @@ function randomKill(){
     //  AQUÍ SE METERÍA EL BOTÓN  //
     return(aleatorio);
 }
-
