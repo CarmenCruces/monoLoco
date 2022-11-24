@@ -15,6 +15,11 @@ Our project is a Weel of doom that we have to design and layout. The theme chose
 
 ## Screenshots 📸
 
+<img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
+<img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
+<img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
+<img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
+
 ![Mobile Game Screenshot](file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG)
 ![Mobile Game Over](file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-gameover.PNG)
 ![Desktop Game](file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-desktop-game.PNG)
