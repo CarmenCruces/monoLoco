@@ -1,6 +1,6 @@
 # 🐵🌴 Mono Loco Wheel of Doom 🌴🐵
 
-⚠*IMPORTANT* ---Please find our lastest and most updated code version in javascript branch---⚠
+⚠*IMPORTANT* ---Please find our lastest and most updated code version in our javascript branch---⚠
 
 Our project is a Weel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
 
