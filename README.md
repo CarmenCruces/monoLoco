@@ -15,7 +15,7 @@ Our project is a Weel of doom that we have to design and layout. The theme chose
 
 ## Screenshots 📸
 
-<img src="repository/monoloco/img/desktop/figma-mobile-game.PNG" width="50%" height="50%"  alt="Mobile Game Screenshot"/>
+<img src=/CarmenCruces/monoLoco/tree/main/img/desktop/figma-mobile-game.PNG" width="50%" height="50%"  alt="Mobile Game Screenshot"/>
 <img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
 <img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
 <img src="file:///C:/Users/Usuario/Documents/formaciones-factoria-5/projects/project-3/figma-mobile-game.PNG" style="width=200px;" alt="Mobile Game Screenshot"/>
