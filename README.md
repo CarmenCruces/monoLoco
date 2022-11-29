@@ -1,5 +1,7 @@
 # 🐵🌴 Mono Loco Wheel of Doom 🌴🐵
 
+⚠*IMPORTANT* ---Please find our lastest and most updated code version in our javascript branch---⚠
+
 Our project is a Weel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
 
 
@@ -13,6 +15,11 @@ Our project is a Weel of doom that we have to design and layout. The theme chose
 
 ## Screenshots 📸
 
+<img src="/img/desktop/figma-mobile-game.PNG" width="100">
+<img src="/img/desktop/figma-mobile-gameover.PNG" width="100">
+
+<img src="/img/desktop/figma-desktop-game.PNG" width="35%">
+<img src="/img/desktop/figma-desktop-gameover.PNG" width="35%">
 
 ## Stacks 💻
 
