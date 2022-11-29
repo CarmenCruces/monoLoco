@@ -1,6 +1,6 @@
 # 🐵🌴 Mono Loco Wheel of Doom 🌴🐵
 
-Our project is a Weel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
+Our project is a Wheel of doom that we have to design and layout. The theme chosen by us is about some tourists who arrive on an island and there is a psychopathic monkey who does not like visitors.
 
 
 ## Participants
